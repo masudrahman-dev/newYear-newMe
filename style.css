@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+/* reset */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header */
+.container-header {
+    background-image: url('./images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1600px;
+    height: 808px;
+    margin: 0 auto;
+    color: #ffff;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-text {
+    margin: 0px 230px 0px 0px;
+}
+
+.header-title {
+    font: bold 4rem 'Work Sans', sans-serif;
+    padding-left: 700px;
+}
+
+.header-disc {
+    font-size: 1rem;
+    padding-left: 900px;
+    line-height: 140%;
+    margin: 24px 0px 30px 0px;
+}
+
+.btn-contact-us {
+    padding: 21px;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+    font: 600 20px 'Work Sans', sans-serif;
+}
+
+/* header end */
+
+/* my story */
+.my-story {
+    margin: 130px 150px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-story-text {
+    margin-left: 90px;
+
+}
+
+.story-title {
+    font: bold 2.5rem'Work Sans', sans-serif;
+
+}
+
+.story-desc {
+    font: 16px/26px 'Work Sans', sans-serif;
+    margin: 24px 0px 16px 0px;
+}
+
+ul>li {
+    list-style: none;
+    padding: 10px 0px 10px 0px;
+
+
+}
+
+ul>li::before {
+    content: '✔';
+    color: rgb(45, 177, 45);
+    padding-right: 3px;
+}
+
+/* my story end */
+/* my plan */
+.my-plan {
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.my-plan-list {
+    margin-top: 100px;
+    display: flex;
+    gap: 85px;
+}
+
+.my-plan-title {
+    font: bold 40px 'Work Sans', sans-serif;
+}
+
+.web {
+    text-align: center;
+}
+
+.web-title {
+    color: #151414;
+    font: bold 30px 'Work Sans', sans-serif;
+}
+
+.web-desc {
+    color: #737272;
+    font: 25px 'Work Sans', sans-serif;
+}
+
+/* my plan end */
+/* mindset */
+.mind-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mindset {
+    background-image: url('./images/watch.png'), url('./images/gradient1.png');
+    background-blend-mode: multiply;
+    width: 1140px;
+    height: 300px;
+    margin: 130px auto 130px auto;
+    padding-left: 65px;
+    padding-top: 80px;
+
+
+}
+
+.mindset-title {
+    font: bold 40px 'Work Sans', sans-serif;
+    color: white;
+
+}
+
+.btn-call-now {
+    padding: 21px;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+    font: 600 20px 'Work Sans', sans-serif;
+    margin-top: 12px;
+
+}
+
+/* mindset end*/
